@@ -13,6 +13,6 @@ const config = {
     'dist/preload/**/*',
     'dist/render/**/*',
   ],
-}
+};
 
-module.exports = config
+module.exports = config;

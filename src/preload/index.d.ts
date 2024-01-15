@@ -2,9 +2,9 @@ declare global {
   interface Window {
     electron: {
       sendMsg(msg: string): Promise<string>
-      onReplyMsg(cb: (msg: string) => any): void
+      onReplyMsg(cb: (msg: string) => string): void
     }
   }
 }
 
-export { }
+export { };

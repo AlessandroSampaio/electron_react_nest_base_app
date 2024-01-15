@@ -1,5 +1,5 @@
-import { HashRouter, Route, Routes } from 'react-router-dom'
-import { Home } from '../pages/Home/Home'
+import { HashRouter, Route, Routes } from 'react-router-dom';
+import { Home } from '../pages/Home/Home';
 
 export function AppRoutes() {
   return (
@@ -8,5 +8,5 @@ export function AppRoutes() {
         <Route path="/" element={<Home />} />
       </Routes>
     </HashRouter>
-  )
+  );
 }

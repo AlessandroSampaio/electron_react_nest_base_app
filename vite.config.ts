@@ -1,7 +1,7 @@
-import { join } from 'node:path'
-import { defineConfig } from 'vite'
-import { VitePluginDoubleshot } from 'vite-plugin-doubleshot'
-import react from '@vitejs/plugin-react'
+import { join } from 'node:path';
+import { defineConfig } from 'vite';
+import { VitePluginDoubleshot } from 'vite-plugin-doubleshot';
+import react from '@vitejs/plugin-react';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -36,4 +36,4 @@ export default defineConfig({
     outDir: join(__dirname, 'dist/render'),
     emptyOutDir: true,
   },
-})
+});
