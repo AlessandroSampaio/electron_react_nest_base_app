@@ -24,11 +24,12 @@
       "vite/client",
       "./src/preload"
     ],
-    "strict": false,
+    "strict": true,
     "noImplicitAny": false,
     "noEmit": true,
     "sourceMap": true,
     "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
     "skipLibCheck": true
   },
   "include": [

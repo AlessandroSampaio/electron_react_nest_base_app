@@ -1,20 +1,12 @@
-import { HashRouter, Route, Routes } from "react-router-dom";
-import { Login } from "../pages/Login/Login";
-import { Home } from "../pages/Home/Home";
-import { Downloads } from "../pages/Dowloads/Downloads";
-import {Uploads} from "../pages/Uploads/Uploads";
-import {Settings} from "../pages/Settings/Settings";
+import { HashRouter, Route, Routes } from 'react-router-dom'
+import { Home } from '../pages/Home/Home'
 
-export const AppRoutes = () => {
+export function AppRoutes() {
   return (
     <HashRouter>
       <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/home" element={<Home />} />
-        <Route path="/downloads" element={<Downloads />} />
-        <Route path="/uploads" element={<Uploads />} />
-        <Route path="/settings" element={<Settings />} />
+        <Route path="/" element={<Home />} />
       </Routes>
     </HashRouter>
-  );
-};
+  )
+}

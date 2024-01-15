@@ -22,7 +22,7 @@
     "react-dom": "^18.2.0",
     "react-icons": "^4.12.0",
     "react-loading": "^2.0.3",
-    "react-router-dom": "^6.21.1",
+    "react-router-dom": "6.21.2",
     "reflect-metadata": "^0.2.0",
     "rxjs": "^7.8.1",
     "vue": "^3.3.8"
@@ -31,6 +31,7 @@
     "@lightwing/eslint-config": "^1.0.3",
     "@types/react": "^18.2.46",
     "@types/react-dom": "^18.2.18",
+    "@types/react-router-dom": "^5.3.3",
     "@vitejs/plugin-vue": "5.0.2",
     "@vue/compiler-sfc": "3.4.5",
     "autoprefixer": "^10.4.16",
