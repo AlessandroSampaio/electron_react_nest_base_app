@@ -3,6 +3,11 @@
   "version": "0.0.1",
   "packageManager": "pnpm@8.14.0",
   "description": "Vite + Electron with Doubleshot, so fast! ⚡",
+  "author": {
+    "name": "AlessandroSampaio",
+    "email": "alessandrosampaio521@gmail.com",
+    "url": "https://github.com/AlessandroSampaio"
+  },
   "main": "dist/main/index.js",
   "scripts": {
     "dev": "rimraf dist && vite",
@@ -11,6 +16,9 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "postinstall": "electron-builder install-app-deps"
+  },
+  "build": {
+    "appId": "vite_nextjs_electron"
   },
   "dependencies": {
     "@doubleshot/nest-electron": "^0.2.5",
